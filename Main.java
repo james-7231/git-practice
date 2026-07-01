@@ -13,7 +13,7 @@ public class Main {
         System.out.printf("Welcome to GitHub, %s!", name);
             ///Closes the scanner.
         System.out.println();
-        System.out.print("How old are you: ");
+        System.out.print("How old are you?: ");
 
         int age = input.nextInt();
         System.out.println();
