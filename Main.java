@@ -18,6 +18,8 @@ public class Main {
         int age = input.nextInt();
         System.out.println();
         System.out.printf("%s, you're %d years old!", name, age);
+        System.out.print("Would you like to make an account (y/n) : ");
+        System.out.println();
         input.close();
 
 
