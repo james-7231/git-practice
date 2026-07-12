@@ -20,6 +20,10 @@ public class Main {
         System.out.printf("%s, you're %d years old!", name, age);
         System.out.print("Would you like to make an account (y/n) : ");
         System.out.println();
+        System.out.print("What is your code");
+        int code = input.nextInt();
+        System.out.println(code);
+
         input.close();
 
 
