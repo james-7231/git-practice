@@ -23,10 +23,19 @@ public class Main {
         System.out.print("What is your code");
         int code = input.nextInt();
         System.out.println(code);
+        if (isInt(code)){
+            System.out.println("Thanks for the code");
+        }
 
         input.close();
 
 
+    }
+    public static boolean isInt(int x){
+        if (x>0){
+            return true;
+        }
+        return false;
     }
 
 
