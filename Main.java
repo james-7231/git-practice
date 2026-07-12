@@ -31,6 +31,7 @@ public class Main {
 
 
     }
+    //does literally nothing useful, just practicing making functions again
     public static boolean isInt(int x){
         if (x>0){
             return true;
